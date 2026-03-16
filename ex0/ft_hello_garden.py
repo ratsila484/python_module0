@@ -7,9 +7,9 @@
 #   By: ny-araza <ny-araza@student.42antananarivo.   +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/03/14 15:25:58 by ny-araza            #+#    #+#            #
-#   Updated: 2026/03/14 15:25:59 by ny-araza           ###   ########.fr      #
+#   Updated: 2026/03/16 13:44:06 by ny-araza           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 def ft_hello_garden():
-    print("Hello, Garden Community!")
+    print("Hello, Garden Community ceci est un test!")
