@@ -7,7 +7,7 @@
 #   By: ny-araza <ny-araza@student.42antananarivo.   +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/03/16 10:46:41 by ny-araza            #+#    #+#            #
-#   Updated: 2026/03/16 11:09:18 by ny-araza           ###   ########.fr      #
+#   Updated: 2026/03/17 08:57:14 by ny-araza           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
@@ -15,6 +15,7 @@ def ft_count_harvest_recursive():
     days_harvest = int(input("Days until harvest: "))
     i = 1
     ft_count(days_harvest, i)
+
 
 def ft_count(days_harvest, i):
     if (days_harvest == 0):

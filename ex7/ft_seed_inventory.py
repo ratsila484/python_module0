@@ -7,7 +7,7 @@
 #   By: ny-araza <ny-araza@student.42antananarivo.   +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/03/16 12:50:28 by ny-araza            #+#    #+#            #
-#   Updated: 2026/03/16 13:37:58 by ny-araza           ###   ########.fr      #
+#   Updated: 2026/03/17 08:58:05 by ny-araza           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
@@ -19,5 +19,4 @@ def ft_seed_inventory(seed_type: str, quantity: int, unit: str):
     elif (unit == "area"):
         print(f"{seed_type.title()} seeds: covers {quantity} square meters")
     else:
-        print(f"Unknown unit type")
-        
+        print("Unknown unit type")
